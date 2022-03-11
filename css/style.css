@@ -25,16 +25,28 @@ h1, h2{
 .cont .white{
     color: #FFFFFF;
 }
-.cont h2, .cont h1{
+.cont h1{
     padding-top: 3%;
     font-size: 3rem;
     font-family: 'Oswald', sans-serif;
     
 }
 .cont img.mouse{
-    padding-top: 15%;
+    padding-top: 17%;
 }
 .container{
     padding: 5% 10%;
     font-weight: 200;
+}
+.about h2, .about p{
+    line-height: 150%;
+}
+.services{
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top:3% ;
+    padding-bottom: 5%;
 }
