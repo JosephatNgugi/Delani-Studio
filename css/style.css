@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+}
+.landing{
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+.cont{
+    padding: 20%;
+}
+.cont .white{
+    color: #FFFFFF;
+}
+.cont img{
+    
+    padding-bottom: 4%;
+
+}
