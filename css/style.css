@@ -58,15 +58,18 @@ h1, h2{
     margin-right: 0%;
     margin-top: 5%;
 }
+.showText{
+    display: none;
+}
 .mcont{
     margin: 5%;
 }
 .portfolio .row{
     position: relative;
     object-fit: contain;
-    width: 90%;
+    /* width: 90%; */
 }
 .portfolio img{
-    padding: 5%;
+    padding: 1%;
     margin: 3%;
 }
