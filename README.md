@@ -15,7 +15,7 @@ Click on this link to view the live website: https://josephatngugi.github.io/Del
 
 -----
 ## Known Bugs
-The form validation is yet to be implemented.. No response upon submitting of message.
+Yet to implement mailchimp intergration.
 ### Contacts
 You can reach me on
 Email: `Josephatn10@gmail.com`
