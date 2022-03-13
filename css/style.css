@@ -70,7 +70,19 @@ h1, h2{
     margin: 5% 1%;
     cursor: pointer;
 }
-
+.col-md-3{
+    position: relative;
+}
+.imgText1, .imgText2, .imgText3, .imgText4, .imgText5, .imgText6, .imgText7, .imgText8{
+    display: none;
+    font-size: x-large;
+    position: absolute;
+    color: black;
+    bottom: 5%;
+    right: 15%;
+    padding: 20%;
+    background-color: #ffffff83;
+}
 .portfolio .row{
     position: relative;
     object-fit: contain;
