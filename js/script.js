@@ -1,4 +1,4 @@
-let userName = $("#name").val();
+var userName = $("#name").val();
 let userEmail = $("#email").val();
 let userMessage = $("#message").val();
 
@@ -87,7 +87,9 @@ $(function(){
     //form Validation
 
 });
-function validate(event){
+function validate(){
+    let userName = $("#name").val();
+
 event.preventDefault();
 let output = `Hello ${userName}, We have recieved your Message. We will get back to you soon. Thank you!`;
 document.getElementById("output").innerText = output;
