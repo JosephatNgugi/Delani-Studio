@@ -1,4 +1,6 @@
-
+let userName = $("#name").val();
+let userEmail = $("#email").val();
+let userMessage = $("#message").val();
 
 $(function(){
     $(".imgHide1, .showText1").click(function() {            //Toggle show and Hide 
@@ -15,6 +17,8 @@ $(function(){
         $(".showText1, .showText2, .showText3").toggle(1000)
     });
 
+
+    // portfolio hover effects
     $(".image1").hover(function() {
         $(this).animate({opacity: 0.2}, 500);
         $(".imgText1").show(500);
@@ -79,4 +83,12 @@ $(function(){
         $(".imgText8").hide(500);
 
     });
+
+    //form Validation
+
 });
+function validate(event){
+event.preventDefault();
+let output = `Hello ${userName}, We have recieved your Message. We will get back to you soon. Thank you!`;
+document.getElementById("output").innerText = output;
+}
