@@ -50,6 +50,7 @@ h1, h2{
     position: relative;
     background-image: url(../assets/backgrounds/s_image.jpg);
     background-size: contain;
+    height: 50vh;
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
 }
